@@ -41,6 +41,7 @@ body {
 
 .navbar a:hover {
     cursor: pointer;
+    color: #fd6262;
 }
 .navbar li {
     display: inline;
@@ -87,7 +88,6 @@ body {
 
 #start-btn:hover {
     cursor: pointer;
-
 }
 
 @keyframes fadeOut {
