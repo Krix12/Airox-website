@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+#email {
+    display: block;
+    background-color: transparent;
+    height: 30px;
+    width: 200px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+    margin-bottom: -10px;
+
+}
+
+#email::placeholder {
+    font-weight: 300;
+}
+
+#message {
+    background-color: transparent;
+    resize: none;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#message::placeholder {
+    font-weight: 300;
+}
+
+#send {
+    display: block;
+    margin: 10px auto 0 auto;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(68, 86, 208);
+    border-radius: 10px;
+    color: white;
+}
+
+#send:hover {
+    cursor: pointer;
+}
