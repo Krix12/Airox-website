@@ -42,6 +42,12 @@ body {
 .navbar a:hover {
     cursor: pointer;
     color: #fd6262;
+    transition: color 0.3s;
+}
+
+#signup:hover {
+    opacity: 0.6;
+    transform: opacity 0.3s;
 }
 .navbar li {
     display: inline;
@@ -88,6 +94,7 @@ body {
 
 #start-btn:hover {
     cursor: pointer;
+    animation: startBtn 1s forwards;
 }
 
 @keyframes fadeOut {
@@ -99,6 +106,21 @@ body {
     100% {
         background-color: transparent;
         border: 1px solid white;
+    }
+
+}
+
+@keyframes startBtn {
+    0% {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+        border: 2px solid black;
+        color: black;
     }
 
 }
